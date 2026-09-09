@@ -50,7 +50,7 @@ By Alexandra (Alexa) Cerf.
 
 `Cursor` · `Snowflake` · `Mode` · `MCP`
 
-Faire moved analytics work into Cursor and added reusable commands for querying, checking, and documenting results. The post also gets into what it took to get people using it: sorting out authentication, setting up MCP, teaching Git, and changing everyday habits.
+Faire moved analytics work into Cursor and added reusable commands for querying, checking, and documenting results. The post also gets into what it took to get people using it: working through authentication issues, MCP errors, and Git problems, and changing everyday habits.
 
 [Back to the directory](README.md)
 
@@ -62,7 +62,7 @@ By Matteo Vasirani ([@mvasirani](https://github.com/mvasirani)) and Cynthia Jose
 
 `GitHub Copilot` · `Kusto` · `Trino` · `MCP`
 
-GitHub’s Qubot answers data questions in Slack and developer tools. The interesting part is how teams maintain what it knows: product and data teams own different parts of the context, and changes go through pull requests with evaluations before they ship.
+GitHub’s Qubot answers data questions in Slack and developer tools. The interesting part is how teams maintain what it knows: product, data, and business teams own different layers of the context, and changes go through pull requests with evaluations before they ship.
 
 [Back to the directory](README.md)
 
@@ -84,7 +84,7 @@ By Yochan Khoi.
 
 Gorgias organizes context into table descriptions, business topics, and step-by-step instructions for more involved questions. The agent loads what it needs as it goes. Includes SQL and YAML examples showing how to document which table to use, how to query it, and what to check in the answer.
 
-**[Creating a culture of agent debugging](https://medium.com/gorgias-engineering/creating-a-culture-of-agent-debugging-97ba4a50e956)** · Gorgias · May 2026 · `Internal deployment`
+**[Creating a culture of Agent Debugging](https://medium.com/gorgias-engineering/creating-a-culture-of-agent-debugging-97ba4a50e956)** · Gorgias · May 2026 · `Internal deployment`
 
 By Antoine Balliet ([@aballiet](https://github.com/aballiet)).
 
@@ -100,7 +100,7 @@ By Arthur Edmond ([@Shumatsurontek](https://github.com/Shumatsurontek)).
 
 Gorgias turns production conversations into evaluation tasks with human-reviewed rubrics, then compares quality, latency, and cost on its actual agent stack. The experiments separate the model doing retrieval from the model doing the analysis. The article also distinguishes its opt-in PR evaluations from a hard merge gate still being built.
 
-**[How do you handle skill retrieval at scale ? From a small company catalog to more than 300 skills in a month.](https://medium.com/gorgias-engineering/how-do-you-handle-skill-retrieval-at-scale-7a6c524bd77e)** · Gorgias · August 2026 · `Internal deployment`
+**[How do you handle skill retrieval at scale ?](https://medium.com/gorgias-engineering/how-do-you-handle-skill-retrieval-at-scale-7a6c524bd77e)** · Gorgias · August 2026 · `Internal deployment`
 
 By Arthur Edmond ([@Shumatsurontek](https://github.com/Shumatsurontek)).
 
@@ -152,7 +152,7 @@ By Jay Sobel ([@jaysobel](https://github.com/jaysobel)).
 
 Jay Sobel shows how to put table metadata, business definitions, and domain docs into dbt models that an agent can query. A practical starting point if your team already uses dbt and Snowflake, with SQL and Jinja examples for building the context tables.
 
-**[The Shape and Feel of the Post-AI Data Stack](https://www.iandmacomber.com/blog/post-ai-data-stack)** · Ramp · August 2026 · `Internal deployment`
+**[The Shape and Feel of the Post-AI Data Stack](https://www.iandmacomber.com/blog/post-ai-data-stack)** · Ian Macomber / Ramp · August 2026 · `Internal deployment`
 
 By Ian Macomber ([@ianmacomber](https://github.com/ianmacomber)).
 

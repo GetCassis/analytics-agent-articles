@@ -100,7 +100,7 @@ By Arthur Edmond ([@Shumatsurontek](https://github.com/Shumatsurontek)).
 
 Gorgias turns production conversations into evaluation tasks with human-reviewed rubrics, then compares quality, latency, and cost on its actual agent stack. The experiments separate the model doing retrieval from the model doing the analysis. The article also distinguishes its opt-in PR evaluations from a hard merge gate still being built.
 
-**[How do you handle skill retrieval at scale ?](https://medium.com/gorgias-engineering/how-do-you-handle-skill-retrieval-at-scale-7a6c524bd77e)** · Gorgias · August 2026 · `Internal deployment`
+**[How do you handle skill retrieval at scale ? From a small company catalog to more than 300 skills in a month.](https://medium.com/gorgias-engineering/how-do-you-handle-skill-retrieval-at-scale-7a6c524bd77e)** · Gorgias · August 2026 · `Internal deployment`
 
 By Arthur Edmond ([@Shumatsurontek](https://github.com/Shumatsurontek)).
 

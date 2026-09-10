@@ -1,6 +1,6 @@
 # Analytics agents built by data teams
 
-A list of articles on how data teams built their analytics agents.
+A curated list of articles from data teams building analytics agents.
 
 [Recommended first reads](#recommended-first-reads) · [Internal builds](#internal-builds) · [Browse by problem](#browse-by-problem) · [Related reading](#related-reading) · [Contribute](CONTRIBUTING.md)
 

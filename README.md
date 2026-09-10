@@ -19,6 +19,7 @@ Read an article directly from the right column, or click a company for its full 
 | [Alan](reading-notes.md#alan) | Nao, Claude Code, Dust | [Adoption across the data team and beyond](https://medium.com/alan/re-inventing-our-craft-how-alans-data-team-is-shaping-its-future-with-ai-e8d73d095ece) (Apr 2026) |
 | [AngelList](reading-notes.md#angellist) | dbt, Snowflake, Devin | [Generating context from metadata and code](https://www.angellist.com/blog/the-semantic-layer-nobody-maintains) (Aug 2026) |
 | [Anthropic](reading-notes.md#anthropic) | Claude Code, MCP | [Skills, documentation, and evaluations](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude) (Jun 2026) |
+| [BlaBlaCar](reading-notes.md#blablacar) | dbt, BigQuery, Markdown | [Rebuilding a warehouse and its documentation for analytics agents](https://medium.com/blablacar/building-an-ai-ready-data-universe-at-blablacar-cb15fbc42020) (Sep 2026) |
 | [Faire](reading-notes.md#faire) | Cursor, Snowflake, Mode | [Moving analytics into an IDE](https://craft.faire.com/we-moved-analytics-into-an-ide-and-havent-looked-back-f6e0c249cc42) (Nov 2025) |
 | [GitHub](reading-notes.md#github) | Copilot, Kusto, Trino | [Shared context ownership and PR evaluations](https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/) (Jun 2026) |
 | [Gorgias · 5 posts](reading-notes.md#gorgias) | dbt, BigQuery, LangSmith, BM25 | [Cortex platform](https://medium.com/gorgias-engineering/how-we-built-a-company-wide-internal-ai-platform-b57947cad08b) (Jul 2026) · [Context](https://medium.com/gorgias-engineering/building-a-context-layer-from-the-ground-up-d6f72713915a) (Mar 2026) · [Debugging](https://medium.com/gorgias-engineering/creating-a-culture-of-agent-debugging-97ba4a50e956) (May 2026) · [Evals](https://medium.com/gorgias-engineering/cortex-labs-benchmarking-an-internal-ai-agent-beyond-vibes-ec9404ce7f8b) (Jul 2026) · [Skill retrieval](https://medium.com/gorgias-engineering/how-do-you-handle-skill-retrieval-at-scale-7a6c524bd77e) (Aug 2026) |
@@ -32,7 +33,7 @@ Read an article directly from the right column, or click a company for its full 
 
 ## Browse by problem
 
-- **Giving the agent context:** [Ramp](reading-notes.md#ramp), [Gorgias](reading-notes.md#gorgias), [AngelList](reading-notes.md#angellist), [OpenAI](reading-notes.md#openai).
+- **Giving the agent context:** [Ramp](reading-notes.md#ramp), [Gorgias](reading-notes.md#gorgias), [AngelList](reading-notes.md#angellist), [BlaBlaCar](reading-notes.md#blablacar), [OpenAI](reading-notes.md#openai).
 - **Testing answers and model changes:** [Gorgias](reading-notes.md#gorgias), [Anthropic](reading-notes.md#anthropic), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin), [Uber](reading-notes.md#uber).
 - **Fixing mistakes and keeping context current:** [GitHub](reading-notes.md#github), [Gorgias](reading-notes.md#gorgias), [Replit](reading-notes.md#replit).
 - **Reducing cost and latency:** [Gorgias](reading-notes.md#gorgias), [Vercel](reading-notes.md#vercel).

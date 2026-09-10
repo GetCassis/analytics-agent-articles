@@ -42,6 +42,18 @@ Anthropic uses Claude skills to guide analysis through agreed metric definitions
 
 [Back to the directory](README.md)
 
+## BlaBlaCar
+
+**[(Re)Building an AI-Ready data universe at BlaBlaCar](https://medium.com/blablacar/building-an-ai-ready-data-universe-at-blablacar-cb15fbc42020)** · BlaBlaCar · September 2026 · `Internal deployment`
+
+By Maxime Rosina.
+
+`dbt` · `BigQuery` · `Markdown` · `SQL`
+
+BlaBlaCar rebuilt a competitive-intelligence warehouse so people and analytics agents could use the same documented business logic. The post includes dbt doc blocks, naming conventions, metric SQL, and a documenter-reviewer agent loop that checks generated documentation before it ships. It also shows how simpler models and consumption tables reduced maintenance and BigQuery spend; the focus is the data and context layer rather than the analytics-agent runtime.
+
+[Back to the directory](README.md)
+
 ## Faire
 
 **[We moved analytics into an IDE — and haven't looked back](https://craft.faire.com/we-moved-analytics-into-an-ide-and-havent-looked-back-f6e0c249cc42)** · Faire · November 2025 · `Internal deployment`

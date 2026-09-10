@@ -24,6 +24,7 @@ Read an article directly from the right column, or click a company for its full 
 | [GitHub](reading-notes.md#github) | Copilot, Kusto, Trino | [Shared context ownership and PR evaluations](https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/) (Jun 2026) |
 | [Gorgias · 5 posts](reading-notes.md#gorgias) | dbt, BigQuery, LangSmith, BM25 | [Cortex platform](https://medium.com/gorgias-engineering/how-we-built-a-company-wide-internal-ai-platform-b57947cad08b) (Jul 2026) · [Context](https://medium.com/gorgias-engineering/building-a-context-layer-from-the-ground-up-d6f72713915a) (Mar 2026) · [Debugging](https://medium.com/gorgias-engineering/creating-a-culture-of-agent-debugging-97ba4a50e956) (May 2026) · [Evals](https://medium.com/gorgias-engineering/cortex-labs-benchmarking-an-internal-ai-agent-beyond-vibes-ec9404ce7f8b) (Jul 2026) · [Skill retrieval](https://medium.com/gorgias-engineering/how-do-you-handle-skill-retrieval-at-scale-7a6c524bd77e) (Aug 2026) |
 | [LinkedIn](reading-notes.md#linkedin) | LangGraph, LangChain, DataHub | [SQL Bot: retrieval, repair, and user experience](https://www.linkedin.com/blog/engineering/ai/practical-text-to-sql-for-data-analytics) (Dec 2024) |
+| [Meta](reading-notes.md#meta) | SQL, Python | [Personal context, iterative analysis, and reusable domain knowledge](https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3) (Mar 2026) |
 | [OpenAI](reading-notes.md#openai) | GPT-5.2, Codex, MCP | [Context enrichment and runtime retrieval](https://openai.com/index/inside-our-in-house-data-agent/) (Jan 2026) |
 | [Ramp · 3 posts](reading-notes.md#ramp) | dbt, Snowflake, Looker, Slack | [Research overview](https://engineering.ramp.com/post/meet-ramp-research) (Sep 2025) · [dbt implementation](https://jaysobel.substack.com/p/building-an-analyst-agents-with-dbt) (Oct 2025) · [What changed next](https://www.iandmacomber.com/blog/post-ai-data-stack) (Aug 2026) |
 | [Replit](reading-notes.md#replit) | Git | [Sharing reviewed corrections between agents](https://replit.com/blog/ai-adoption) (Aug 2026) |
@@ -33,11 +34,11 @@ Read an article directly from the right column, or click a company for its full 
 
 ## Browse by problem
 
-- **Giving the agent context:** [Ramp](reading-notes.md#ramp), [Gorgias](reading-notes.md#gorgias), [AngelList](reading-notes.md#angellist), [BlaBlaCar](reading-notes.md#blablacar), [OpenAI](reading-notes.md#openai).
-- **Testing answers and model changes:** [Gorgias](reading-notes.md#gorgias), [Anthropic](reading-notes.md#anthropic), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin), [Uber](reading-notes.md#uber).
-- **Fixing mistakes and keeping context current:** [GitHub](reading-notes.md#github), [Gorgias](reading-notes.md#gorgias), [Replit](reading-notes.md#replit).
+- **Giving the agent context:** [Ramp](reading-notes.md#ramp), [Gorgias](reading-notes.md#gorgias), [AngelList](reading-notes.md#angellist), [BlaBlaCar](reading-notes.md#blablacar), [Meta](reading-notes.md#meta), [OpenAI](reading-notes.md#openai).
+- **Testing answers and model changes:** [Gorgias](reading-notes.md#gorgias), [Anthropic](reading-notes.md#anthropic), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin), [Meta](reading-notes.md#meta), [Uber](reading-notes.md#uber).
+- **Fixing mistakes and keeping context current:** [GitHub](reading-notes.md#github), [Gorgias](reading-notes.md#gorgias), [Meta](reading-notes.md#meta), [Replit](reading-notes.md#replit).
 - **Reducing cost and latency:** [Gorgias](reading-notes.md#gorgias), [Vercel](reading-notes.md#vercel).
-- **Getting people to use it:** [Alan](reading-notes.md#alan), [Faire](reading-notes.md#faire), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin).
+- **Getting people to use it:** [Alan](reading-notes.md#alan), [Faire](reading-notes.md#faire), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin), [Meta](reading-notes.md#meta).
 
 ## Related reading
 

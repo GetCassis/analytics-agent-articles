@@ -134,6 +134,18 @@ LinkedIn’s SQL Bot uses dataset descriptions, query history, and a knowledge g
 
 [Back to the directory](README.md)
 
+## Meta
+
+**[Inside Meta’s Home Grown AI Analytics Agent](https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3)** · Meta · March 2026 · `Internal deployment`
+
+Published by Analytics at Meta.
+
+`SQL` · `Python`
+
+Meta’s Analytics Agent starts from each person’s recent query history, then retrieves table descriptions, example queries, column documentation, code, semantic models, and other business context as it works. The article explains its iterative query loop and the Cookbooks, Recipes, and Ingredients system teams use to package domain instructions, reference experts, validation rules, semantic models, documentation, and learned corrections. It also covers rollout from a weekend prototype to company-wide use, with the SQL behind every answer visible for review.
+
+[Back to the directory](README.md)
+
 ## OpenAI
 
 **[Inside OpenAI's in-house data agent](https://openai.com/index/inside-our-in-house-data-agent/)** · OpenAI · January 2026 · `Internal deployment`

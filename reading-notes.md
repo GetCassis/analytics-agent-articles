@@ -42,6 +42,18 @@ Anthropic uses Claude skills to guide analysis through agreed metric definitions
 
 [Back to the directory](README.md)
 
+## Bitrise
+
+**[Data Mage: meet our AI data analyst that lives in Slack](https://bitrise.io/blog/post/data-mage-meet-our-ai-data-analyst-that-lives-in-slack)** · Bitrise · July 2026 · `Internal deployment`
+
+By Balazs Mate.
+
+`PydanticAI` · `Claude` · `BigQuery` · `dbt` · `Metabase` · `Slack`
+
+Bitrise shows the code-level shape of Data Mage: typed agent and tool definitions, dry-run cost checks, read-only SQL enforcement, a bounded schema surface, and PostgreSQL-backed memory split between curated and contributor tiers. The post is especially useful for what changed after launch: governed metrics became the default path, tables are ranked by references from dashboards and metrics, and every answer carries a provenance footer. It reports adoption and is candid that a proper evaluation harness is still the next step.
+
+[Back to the directory](README.md)
+
 ## BlaBlaCar
 
 **[(Re)Building an AI-Ready data universe at BlaBlaCar](https://medium.com/blablacar/building-an-ai-ready-data-universe-at-blablacar-cb15fbc42020)** · BlaBlaCar · September 2026 · `Internal deployment`
@@ -51,6 +63,18 @@ By Maxime Rosina.
 `dbt` · `BigQuery` · `Markdown` · `SQL`
 
 BlaBlaCar rebuilt a competitive-intelligence warehouse so people and analytics agents could use the same documented business logic. The post includes dbt doc blocks, naming conventions, metric SQL, and a documenter-reviewer agent loop that checks generated documentation before it ships. It also shows how simpler models and consumption tables reduced maintenance and BigQuery spend; the focus is the data and context layer rather than the analytics-agent runtime.
+
+[Back to the directory](README.md)
+
+## Cloudflare
+
+**[How we built Cloudflare's data platform and an AI agent on top of it](https://blog.cloudflare.com/our-unified-data-platform/)** · Cloudflare · May 2026 · `Internal deployment`
+
+By Brian Brunner ([@brianbrunner](https://github.com/brianbrunner)), Dmitry Alexeenko ([@dalexeenko](https://github.com/dalexeenko)), and Matt Moen.
+
+`Apache Trino` · `R2` · `Apache Iceberg` · `DataHub` · `Workers AI` · `MCP`
+
+Cloudflare built Town Lake as a governed SQL layer over operational databases and object storage, then put its Skipper analytics agent on top. The post explains five layers of context, from schemas and query history to curated data models and runtime inspection; permission checks that run as the requesting user; and a Code Mode MCP design that replaces many individual tool calls with sandboxed JavaScript. It also reports production usage and lessons from simplifying prescriptive prompts and overlapping tools.
 
 [Back to the directory](README.md)
 
@@ -119,6 +143,18 @@ By Arthur Edmond ([@Shumatsurontek](https://github.com/Shumatsurontek)).
 `BM25` · `Markdown`
 
 Gorgias compared an LLM ranker, fine-tuned ColBERT, and BM25 for finding the right skill. BM25 was close enough on their tests to win on maintenance cost. Each skill now has three example requests that test whether its description makes it findable before it ships.
+
+[Back to the directory](README.md)
+
+## incident.io
+
+**[Institutional knowledge doesn't scale: Building an agentic data analyst](https://incident.io/blog/agentic-data-analyst-pt-i)** · incident.io · August 2026 · `Internal deployment`
+
+By Navo Das.
+
+`Claude Code` · `Cowork` · `BigQuery` · `dbt` · `Go`
+
+incident.io packages its data brain as a plugin with a query skill, domain themes, vetted SQL examples, and per-model schema files. A Go CLI compiles that guidance from versioned sources, the semantic layer, dbt manifest, and BigQuery schema. The useful details are how the team logs exactly which guidance version the agent consulted and audits the assembled corpus for excessive context, missing examples, overlapping triggers, and staleness. The query tool also dry-runs SQL, restricts statement and table access, and rejects expensive scans.
 
 [Back to the directory](README.md)
 
@@ -275,6 +311,30 @@ By Colin Zima.
 `Omni` · `Claude`
 
 Omni tests its agent on 100 analytics questions and tracks accuracy, response time, and cost as it changes the context and SQL validation. Useful for planning your own experiments: the results come from Omni’s chosen questions and tuned semantic models.
+
+[Back to the directory](README.md)
+
+## Lyft
+
+**[From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding Project](https://eng.lyft.com/from-day-1-to-production-building-lyfts-analytics-rides-intelligence-assistant-as-onboarding-5c5643c192d9)** · Lyft · July 2026 · `Internal deployment` · `Production engineering`
+
+By Sagar Baronia.
+
+`Next.js` · `Node.js` · `Envoy` · `Server-Sent Events` · `XState` · `Grafana`
+
+Lyft’s LangGraph orchestration, SQL generation, and semantic layer already existed; this account covers turning its Streamlit interface into a production internal application. It is useful for authentication, service routing, streaming chat state, deployment, and observability, rather than for the agent’s analytical architecture or evaluation.
+
+[Back to the directory](README.md)
+
+## ClickHouse
+
+**[The Agentic Analytics Benchmark: Measuring model accuracy and efficiency in analytical agents](https://clickhouse.com/blog/agentic-analytics-benchmark-data-agent-mnist)** · ClickHouse · September 2026 · `Benchmark`
+
+By Eduardo Vellasques ([@evellasques](https://github.com/evellasques)) and Al Brown ([@sdairs](https://github.com/sdairs)).
+
+`Python` · `chDB` · `ClickHouse`
+
+ClickHouse turns 201 questions from its internal DWAINE agent into a replayable benchmark over a synthetic reconstruction of its warehouse. The post covers question curation, ground truth established through agreement across model providers, a jury that excludes the candidate’s own model family, contamination probes, and measurements of correctness, cost, latency, and turn budgets. It also states the weaknesses of model-generated ground truth. The [open-source harness](https://github.com/ClickHouse/data-agent-mnist) includes two worked warehouses and can be adapted to another team’s questions and schema.
 
 [Back to the directory](README.md)
 

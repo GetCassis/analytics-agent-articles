@@ -19,10 +19,13 @@ Read an article directly from the right column, or click a company for its full 
 | [Alan](reading-notes.md#alan) | Nao, Claude Code, Dust | [Adoption across the data team and beyond](https://medium.com/alan/re-inventing-our-craft-how-alans-data-team-is-shaping-its-future-with-ai-e8d73d095ece) (Apr 2026) |
 | [AngelList](reading-notes.md#angellist) | dbt, Snowflake, Devin | [Generating context from metadata and code](https://www.angellist.com/blog/the-semantic-layer-nobody-maintains) (Aug 2026) |
 | [Anthropic](reading-notes.md#anthropic) | Claude Code, MCP | [Skills, documentation, and evaluations](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude) (Jun 2026) |
+| [Bitrise](reading-notes.md#bitrise) | PydanticAI, Claude, BigQuery, dbt, Slack | [Tools, memory, guardrails, and post-launch lessons](https://bitrise.io/blog/post/data-mage-meet-our-ai-data-analyst-that-lives-in-slack) (Jul 2026) |
 | [BlaBlaCar](reading-notes.md#blablacar) | dbt, BigQuery, Markdown | [Rebuilding a warehouse and its documentation for analytics agents](https://medium.com/blablacar/building-an-ai-ready-data-universe-at-blablacar-cb15fbc42020) (Sep 2026) |
+| [Cloudflare](reading-notes.md#cloudflare) | Trino, R2, DataHub, Workers AI, MCP | [A unified data platform and the Skipper analytics agent](https://blog.cloudflare.com/our-unified-data-platform/) (May 2026) |
 | [Faire](reading-notes.md#faire) | Cursor, Snowflake, Mode | [Moving analytics into an IDE](https://craft.faire.com/we-moved-analytics-into-an-ide-and-havent-looked-back-f6e0c249cc42) (Nov 2025) |
 | [GitHub](reading-notes.md#github) | Copilot, Kusto, Trino | [Shared context ownership and PR evaluations](https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/) (Jun 2026) |
 | [Gorgias · 5 posts](reading-notes.md#gorgias) | dbt, BigQuery, LangSmith, BM25 | [Cortex platform](https://medium.com/gorgias-engineering/how-we-built-a-company-wide-internal-ai-platform-b57947cad08b) (Jul 2026) · [Context](https://medium.com/gorgias-engineering/building-a-context-layer-from-the-ground-up-d6f72713915a) (Mar 2026) · [Debugging](https://medium.com/gorgias-engineering/creating-a-culture-of-agent-debugging-97ba4a50e956) (May 2026) · [Evals](https://medium.com/gorgias-engineering/cortex-labs-benchmarking-an-internal-ai-agent-beyond-vibes-ec9404ce7f8b) (Jul 2026) · [Skill retrieval](https://medium.com/gorgias-engineering/how-do-you-handle-skill-retrieval-at-scale-7a6c524bd77e) (Aug 2026) |
+| [incident.io](reading-notes.md#incidentio) | Claude Code, Cowork, BigQuery, dbt | [Compiling, auditing, and observing an agent’s guidance](https://incident.io/blog/agentic-data-analyst-pt-i) (Aug 2026) |
 | [LinkedIn](reading-notes.md#linkedin) | LangGraph, LangChain, DataHub | [SQL Bot: retrieval, repair, and user experience](https://www.linkedin.com/blog/engineering/ai/practical-text-to-sql-for-data-analytics) (Dec 2024) |
 | [Meta](reading-notes.md#meta) | SQL, Python | [Personal context, iterative analysis, and reusable domain knowledge](https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3) (Mar 2026) |
 | [OpenAI](reading-notes.md#openai) | GPT-5.2, Codex, MCP | [Context enrichment and runtime retrieval](https://openai.com/index/inside-our-in-house-data-agent/) (Jan 2026) |
@@ -34,11 +37,11 @@ Read an article directly from the right column, or click a company for its full 
 
 ## Browse by problem
 
-- **Giving the agent context:** [Ramp](reading-notes.md#ramp), [Gorgias](reading-notes.md#gorgias), [AngelList](reading-notes.md#angellist), [BlaBlaCar](reading-notes.md#blablacar), [Meta](reading-notes.md#meta), [OpenAI](reading-notes.md#openai).
-- **Testing answers and model changes:** [Gorgias](reading-notes.md#gorgias), [Anthropic](reading-notes.md#anthropic), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin), [Meta](reading-notes.md#meta), [Uber](reading-notes.md#uber).
-- **Fixing mistakes and keeping context current:** [GitHub](reading-notes.md#github), [Gorgias](reading-notes.md#gorgias), [Meta](reading-notes.md#meta), [Replit](reading-notes.md#replit).
-- **Reducing cost and latency:** [Gorgias](reading-notes.md#gorgias), [Vercel](reading-notes.md#vercel).
-- **Getting people to use it:** [Alan](reading-notes.md#alan), [Faire](reading-notes.md#faire), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin), [Meta](reading-notes.md#meta).
+- **Giving the agent context:** [Ramp](reading-notes.md#ramp), [Gorgias](reading-notes.md#gorgias), [AngelList](reading-notes.md#angellist), [Bitrise](reading-notes.md#bitrise), [BlaBlaCar](reading-notes.md#blablacar), [Cloudflare](reading-notes.md#cloudflare), [incident.io](reading-notes.md#incidentio), [Meta](reading-notes.md#meta), [OpenAI](reading-notes.md#openai).
+- **Testing answers and model changes:** [Gorgias](reading-notes.md#gorgias), [Anthropic](reading-notes.md#anthropic), [ClickHouse](reading-notes.md#clickhouse), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin), [Meta](reading-notes.md#meta), [Uber](reading-notes.md#uber).
+- **Fixing mistakes and keeping context current:** [Bitrise](reading-notes.md#bitrise), [GitHub](reading-notes.md#github), [Gorgias](reading-notes.md#gorgias), [incident.io](reading-notes.md#incidentio), [Meta](reading-notes.md#meta), [Replit](reading-notes.md#replit).
+- **Reducing cost and latency:** [Cloudflare](reading-notes.md#cloudflare), [Gorgias](reading-notes.md#gorgias), [Vercel](reading-notes.md#vercel).
+- **Getting people to use it:** [Alan](reading-notes.md#alan), [Bitrise](reading-notes.md#bitrise), [Faire](reading-notes.md#faire), [incident.io](reading-notes.md#incidentio), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin), [Meta](reading-notes.md#meta).
 
 ## Related reading
 
@@ -49,6 +52,9 @@ Product engineering, technical studies, and benchmarks that complement the inter
 - [Cassis: A blank beats a guess](https://blog.getcassis.com/a-blank-beats-a-guess/) · `Vendor implementation`. Building the first context from existing data assets, with an open-source bootstrap kit. [Stack and notes](reading-notes.md#cassis).
 - [Cassis: Context engineering for analytics agents](https://blog.getcassis.com/context-engineering-for-analytics-agents/) · `Vendor implementation`. How we structure tables, metrics, and business rules so an agent can find what it needs. [Stack and notes](reading-notes.md#cassis).
 
+- [Lyft: From Day 1 to Production](https://eng.lyft.com/from-day-1-to-production-building-lyfts-analytics-rides-intelligence-assistant-as-onboarding-5c5643c192d9) · `Production engineering`. Taking an existing analytics agent from a Streamlit prototype to an authenticated, observable internal application. [Stack and notes](reading-notes.md#lyft).
+
+- [ClickHouse: The Agentic Analytics Benchmark](https://clickhouse.com/blog/agentic-analytics-benchmark-data-agent-mnist) · `Benchmark`. A reusable harness built from 201 real questions, with model-jury scoring, cost and latency measurement, and contamination checks. [Code](https://github.com/ClickHouse/data-agent-mnist) · [Notes](reading-notes.md#clickhouse).
 - [Benchouse: The Analytics Agent Benchmark](https://benchouse.ai/benchmark) · `Benchmark`. Compare accuracy, completeness, restraint, and cost per question across analytics agents. [Notes](reading-notes.md#benchouse).
 
 ## Suggest an article

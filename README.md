@@ -19,6 +19,7 @@ Read an article directly from the right column, or click a company for its full 
 | [Alan](reading-notes.md#alan) | Nao, Claude Code, Dust | [Adoption across the data team and beyond](https://medium.com/alan/re-inventing-our-craft-how-alans-data-team-is-shaping-its-future-with-ai-e8d73d095ece) (Apr 2026) |
 | [AngelList](reading-notes.md#angellist) | dbt, Snowflake, Devin | [Generating context from metadata and code](https://www.angellist.com/blog/the-semantic-layer-nobody-maintains) (Aug 2026) |
 | [Anthropic](reading-notes.md#anthropic) | Claude Code, MCP | [Skills, documentation, and evaluations](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude) (Jun 2026) |
+| [Astronomer](reading-notes.md#astronomer) | DuckDB, Snowflake, Airflow, Slack | [Inferring a context layer from metadata and pipeline code](https://www.astronomer.io/blog/building-kepler-astronomer-internal-data-assistant/) (Mar 2026) |
 | [Bitrise](reading-notes.md#bitrise) | PydanticAI, Claude, BigQuery, dbt, Slack | [Tools, memory, guardrails, and post-launch lessons](https://bitrise.io/blog/post/data-mage-meet-our-ai-data-analyst-that-lives-in-slack) (Jul 2026) |
 | [BlaBlaCar](reading-notes.md#blablacar) | dbt, BigQuery, Markdown | [Rebuilding a warehouse and its documentation for analytics agents](https://medium.com/blablacar/building-an-ai-ready-data-universe-at-blablacar-cb15fbc42020) (Sep 2026) |
 | [Cloudflare](reading-notes.md#cloudflare) | Trino, R2, DataHub, Workers AI, MCP | [A unified data platform and the Skipper analytics agent](https://blog.cloudflare.com/our-unified-data-platform/) (May 2026) |
@@ -37,11 +38,11 @@ Read an article directly from the right column, or click a company for its full 
 
 ## Browse by problem
 
-- **Giving the agent context:** [Ramp](reading-notes.md#ramp), [Gorgias](reading-notes.md#gorgias), [AngelList](reading-notes.md#angellist), [Bitrise](reading-notes.md#bitrise), [BlaBlaCar](reading-notes.md#blablacar), [Cloudflare](reading-notes.md#cloudflare), [incident.io](reading-notes.md#incidentio), [Meta](reading-notes.md#meta), [OpenAI](reading-notes.md#openai).
+- **Giving the agent context:** [Ramp](reading-notes.md#ramp), [Gorgias](reading-notes.md#gorgias), [AngelList](reading-notes.md#angellist), [Astronomer](reading-notes.md#astronomer), [Bitrise](reading-notes.md#bitrise), [BlaBlaCar](reading-notes.md#blablacar), [Cloudflare](reading-notes.md#cloudflare), [incident.io](reading-notes.md#incidentio), [Meta](reading-notes.md#meta), [OpenAI](reading-notes.md#openai).
 - **Testing answers and model changes:** [Gorgias](reading-notes.md#gorgias), [Anthropic](reading-notes.md#anthropic), [ClickHouse](reading-notes.md#clickhouse), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin), [Meta](reading-notes.md#meta), [Uber](reading-notes.md#uber).
-- **Fixing mistakes and keeping context current:** [Bitrise](reading-notes.md#bitrise), [GitHub](reading-notes.md#github), [Gorgias](reading-notes.md#gorgias), [incident.io](reading-notes.md#incidentio), [Meta](reading-notes.md#meta), [Replit](reading-notes.md#replit).
+- **Fixing mistakes and keeping context current:** [Bitrise](reading-notes.md#bitrise), [GitHub](reading-notes.md#github), [Gorgias](reading-notes.md#gorgias), [incident.io](reading-notes.md#incidentio), [Meta](reading-notes.md#meta), [Replit](reading-notes.md#replit), [Astronomer](reading-notes.md#astronomer).
 - **Reducing cost and latency:** [Cloudflare](reading-notes.md#cloudflare), [Gorgias](reading-notes.md#gorgias), [Vercel](reading-notes.md#vercel).
-- **Getting people to use it:** [Alan](reading-notes.md#alan), [Bitrise](reading-notes.md#bitrise), [Faire](reading-notes.md#faire), [incident.io](reading-notes.md#incidentio), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin), [Meta](reading-notes.md#meta).
+- **Getting people to use it:** [Alan](reading-notes.md#alan), [Astronomer](reading-notes.md#astronomer), [Bitrise](reading-notes.md#bitrise), [Faire](reading-notes.md#faire), [incident.io](reading-notes.md#incidentio), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin), [Meta](reading-notes.md#meta).
 
 ## Related reading
 

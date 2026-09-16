@@ -42,6 +42,18 @@ Anthropic uses Claude skills to guide analysis through agreed metric definitions
 
 [Back to the directory](README.md)
 
+## Astronomer
+
+**[Building Kepler: Astronomer's Internal Data Assistant](https://www.astronomer.io/blog/building-kepler-astronomer-internal-data-assistant/)** · Astronomer · March 2026 · `Internal deployment`
+
+By Josh Fell ([@josh-fell](https://github.com/josh-fell)) and Milton Li ([@milton-li](https://github.com/milton-li)).
+
+`DuckDB` · `Snowflake` · `Airflow` · `Slack` · `Jupyter`
+
+Astronomer built Kepler as a Slackbot and CLI for ad hoc warehouse questions. Instead of maintaining a semantic layer, the team indexes Snowflake metadata, Airflow and BI code, and table usage into a DuckDB context layer, then a discovery subagent searches that index before the main agent writes SQL. Useful for hybrid search over tables and lineage, a persistent Jupyter kernel for iterative analysis, and playbooks distilled from successful sessions when a question type goes wrong. The team extracted reusable patterns into an [open-source agent toolkit](https://github.com/astronomer/agents).
+
+[Back to the directory](README.md)
+
 ## Bitrise
 
 **[Data Mage: meet our AI data analyst that lives in Slack](https://bitrise.io/blog/post/data-mage-meet-our-ai-data-analyst-that-lives-in-slack)** · Bitrise · July 2026 · `Internal deployment`

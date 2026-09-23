@@ -284,6 +284,12 @@ Vercel replaced most of its SQL agent’s specialized tools with bash access to 
 
 ## Cassis
 
+**[Analytics agents at dbt Summit 2026: emerging foundations, no settled playbook](https://www.linkedin.com/pulse/analytics-agents-dbt-summit-2026-emerging-foundations-blandineau-gyfbe/)** · Matthieu Blandineau / Cassis · September 2026 · `Conference recap`
+
+By Matthieu Blandineau ([@matbcassis](https://github.com/matbcassis)).
+
+A recap of the 40 dbt Summit 2026 sessions on analytics agents and context, sorted by how settled each practice is. Teams are converging on agents that only read governed, tested models, semantic layers that carry business context, and maintained evaluation sets. How they split and publish context, capture meaning when a system is designed, and use agents to prepare model changes for review still differs from team to team. Useful for the numbers teams shared, such as Data Culture’s accuracy as each layer of context was added and Kilo Code’s comparison of retrieval against a structured knowledge base, and for three questions the talks left open: tracing which context an agent used, the review work as usage grows, and approving changes that span domains.
+
 **[A blank beats a guess: assembling context for analytics agents](https://blog.getcassis.com/a-blank-beats-a-guess/)** · Cassis · August 2026 · `Vendor implementation`
 
 By Matthieu Blandineau ([@matbcassis](https://github.com/matbcassis)).

@@ -46,7 +46,7 @@ Read an article directly from the right column, or click a company for its full 
 
 ## Related reading
 
-Product engineering, technical studies, and benchmarks that complement the internal builds.
+Product engineering, technical studies, benchmarks, and conference recaps that complement the internal builds.
 
 - [Cube: Building an Agentic Analytics Harness](https://cube.dev/blog/building-an-agentic-analytics-harness) · `Vendor implementation`. Errors, result limits, and permission-aware tools. [Stack and notes](reading-notes.md#cube).
 - [Omni: Benchmarking Omni’s agentic analytics harness](https://omni.co/blog/benchmarking-omnis-agentic-analytics-harness) · `Vendor implementation`. Testing quality, latency, and cost on a vendor’s analytics workload. [Stack and notes](reading-notes.md#omni).
@@ -57,6 +57,8 @@ Product engineering, technical studies, and benchmarks that complement the inter
 
 - [ClickHouse: The Agentic Analytics Benchmark](https://clickhouse.com/blog/agentic-analytics-benchmark-data-agent-mnist) · `Benchmark`. A reusable harness built from 201 real questions, with model-jury scoring, cost and latency measurement, and contamination checks. [Code](https://github.com/ClickHouse/data-agent-mnist) · [Notes](reading-notes.md#clickhouse).
 - [Benchouse: The Analytics Agent Benchmark](https://benchouse.ai/benchmark) · `Benchmark`. Compare accuracy, completeness, restraint, and cost per question across analytics agents. [Notes](reading-notes.md#benchouse).
+
+- [Cassis: Analytics agents at dbt Summit 2026](https://www.linkedin.com/pulse/analytics-agents-dbt-summit-2026-emerging-foundations-blandineau-gyfbe/) · `Conference recap`. Where the summit’s 40 sessions on analytics agents and context agreed, where teams still differ, and what the talks left open. [Notes](reading-notes.md#cassis).
 
 ## Suggest an article
 

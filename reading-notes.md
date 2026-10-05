@@ -290,7 +290,15 @@ By Matthieu Blandineau ([@matbcassis](https://github.com/matbcassis)).
 
 A recap of the 40 dbt Summit 2026 sessions on analytics agents and context, sorted by how settled each practice is. Teams are converging on agents that only read governed, tested models, semantic layers that carry business context, and maintained evaluation sets. How they split and publish context, capture meaning when a system is designed, and use agents to prepare model changes for review still differs from team to team. Useful for the numbers teams shared, such as Data Culture’s accuracy as each layer of context was added and Kilo Code’s comparison of retrieval against a structured knowledge base, and for three questions the talks left open: tracing which context an agent used, the review work as usage grows, and approving changes that span domains.
 
-**[A blank beats a guess: assembling context for analytics agents](https://blog.getcassis.com/a-blank-beats-a-guess/)** · Cassis · August 2026 · `Vendor implementation`
+**[Your data context should be debuggable](https://blog.getcassis.com/your-data-context-should-be-debuggable/)** · Cassis · September 2026 · `Vendor implementation`
+
+By Aloÿs Augustin ([@AloysAugustin](https://github.com/AloysAugustin)).
+
+`Cassis` · `Markdown` · `YAML` · `Git`
+
+Why we organize context as a tree of business domains that the agent explores from the root, instead of searching it by similarity or keyword. When the agent misses a rule, you follow its path to the first wrong turn and fix that domain’s description. Covers where each rule should live so it isn’t duplicated, how cross-domain joins pull in their parent context, the domain size we recommend, and how the setup works with or without a semantic layer. On larger deployments, the switch cut context tokens loaded per question by 50% to 80%.
+
+**[How to assemble context for analytics agents from your existing assets](https://blog.getcassis.com/assemble-context-for-analytics-agents/)** · Cassis · August 2026 · `Vendor implementation`
 
 By Matthieu Blandineau ([@matbcassis](https://github.com/matbcassis)).
 
@@ -300,7 +308,7 @@ How we assemble a first version of context from schemas, dbt, dashboards, query 
 
 **[Context engineering for analytics agents: lessons from six months of building and rebuilding](https://blog.getcassis.com/context-engineering-for-analytics-agents/)** · Cassis · June 2026 · `Vendor implementation`
 
-By Aloÿs Augustin and Matthieu Blandineau ([@matbcassis](https://github.com/matbcassis)).
+By Aloÿs Augustin ([@AloysAugustin](https://github.com/AloysAugustin)) and Matthieu Blandineau ([@matbcassis](https://github.com/matbcassis)).
 
 `Cassis` · `Markdown` · `Git`
 

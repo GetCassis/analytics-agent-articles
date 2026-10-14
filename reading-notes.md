@@ -90,6 +90,18 @@ Cloudflare built Town Lake as a governed SQL layer over operational databases an
 
 [Back to the directory](README.md)
 
+## DoorDash
+
+**[Inside Vera, DoorDash’s Data Agent](https://careersatdoordash.com/blog/inside-vera-doordashs-data-agent/)** · DoorDash · September 16, 2026 · `Internal deployment`
+
+By Ian Baldwin, Jacopo Himberg, and Akshat Khandelwal.
+
+`GPT-5.5` · `SQL`
+
+DoorDash built Vera as an internal conversational data agent with a retrieval layer over modeled tables and institutional knowledge. The post explains how the harness blocks unverified sources, tracks provenance, and gates new knowledge and source changes on evaluations and domain-owner approval. Especially useful for the evaluation workflow: mining Slack threads and Jira tickets into proposals for experts to review, calibrating LLM judges, and keeping time-sensitive questions current.
+
+[Back to the directory](README.md)
+
 ## Faire
 
 **[We moved analytics into an IDE — and haven't looked back](https://craft.faire.com/we-moved-analytics-into-an-ide-and-havent-looked-back-f6e0c249cc42)** · Faire · November 2025 · `Internal deployment`

@@ -218,6 +218,18 @@ OpenAI explains how its agent learns about the data before anyone asks a questio
 
 [Back to the directory](README.md)
 
+## Qonto
+
+**[From Confidently Wrong to Trustworthy: Qonto’s Journey to Agentic Analytics](https://medium.com/qonto-way/from-confidently-wrong-to-trustworthy-qontos-journey-to-agentic-analytics-16f3f7b1f7ff)** · Qonto · October 2026 · `Internal deployment`
+
+By Zainab Manasawala.
+
+`Snowflake` · `Claude` · `Markdown` · `Omni`
+
+Qonto describes four attempts over two years: a text-to-SQL bot, Claude with direct access to the Snowflake warehouse, Claude agents reading a markdown file of governed metrics, join paths and entities, and finally a rebuilt dimensional model with Omni as the context layer. The post walks one question, active customers in Germany last quarter, through the three ways it went wrong on raw tables and how a governed metric resolves it. It also covers the cost of remodeling in paired waves of analytics engineers and domain owners, why metric definitions needed business context to work, and why data literacy had to come before AI literacy.
+
+[Back to the directory](README.md)
+
 ## Ramp
 
 **[Meet Ramp Research: Our Agentic Data Analyst](https://engineering.ramp.com/post/meet-ramp-research)** · Ramp · September 2025 · `Internal deployment`

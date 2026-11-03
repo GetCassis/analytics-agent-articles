@@ -31,6 +31,7 @@ Read an article directly from the right column, or click a company for its full 
 | [LinkedIn](reading-notes.md#linkedin) | LangGraph, LangChain, DataHub | [SQL Bot: retrieval, repair, and user experience](https://www.linkedin.com/blog/engineering/ai/practical-text-to-sql-for-data-analytics) (Dec 2024) |
 | [Meta](reading-notes.md#meta) | SQL, Python | [Personal context, iterative analysis, and reusable domain knowledge](https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3) (Mar 2026) |
 | [OpenAI](reading-notes.md#openai) | GPT-5.2, Codex, MCP | [Context enrichment and runtime retrieval](https://openai.com/index/inside-our-in-house-data-agent/) (Jan 2026) |
+| [Qonto](reading-notes.md#qonto) | Snowflake, Claude, Markdown, Omni | [From text-to-SQL to a governed context layer](https://medium.com/qonto-way/from-confidently-wrong-to-trustworthy-qontos-journey-to-agentic-analytics-16f3f7b1f7ff) (Oct 2026) |
 | [Ramp · 3 posts](reading-notes.md#ramp) | dbt, Snowflake, Looker, Slack | [Research overview](https://engineering.ramp.com/post/meet-ramp-research) (Sep 2025) · [dbt implementation](https://jaysobel.substack.com/p/building-an-analyst-agents-with-dbt) (Oct 2025) · [What changed next](https://www.iandmacomber.com/blog/post-ai-data-stack) (Aug 2026) |
 | [Replit](reading-notes.md#replit) | Git | [Sharing reviewed corrections between agents](https://replit.com/blog/ai-adoption) (Aug 2026) |
 | [Sourcegraph](reading-notes.md#sourcegraph) | Gemini, BigQuery, Cloud Functions | [DataBot’s tools and feedback loop](https://sourcegraph.com/blog/building-databot-our-always-on-data-assistant) (Feb 2026) |
@@ -39,11 +40,11 @@ Read an article directly from the right column, or click a company for its full 
 
 ## Browse by problem
 
-- **Giving the agent context:** [Ramp](reading-notes.md#ramp), [Gorgias](reading-notes.md#gorgias), [AngelList](reading-notes.md#angellist), [Astronomer](reading-notes.md#astronomer), [Bitrise](reading-notes.md#bitrise), [BlaBlaCar](reading-notes.md#blablacar), [Cloudflare](reading-notes.md#cloudflare), [DoorDash](reading-notes.md#doordash), [incident.io](reading-notes.md#incidentio), [Meta](reading-notes.md#meta), [OpenAI](reading-notes.md#openai).
+- **Giving the agent context:** [Ramp](reading-notes.md#ramp), [Gorgias](reading-notes.md#gorgias), [AngelList](reading-notes.md#angellist), [Astronomer](reading-notes.md#astronomer), [Bitrise](reading-notes.md#bitrise), [BlaBlaCar](reading-notes.md#blablacar), [Cloudflare](reading-notes.md#cloudflare), [DoorDash](reading-notes.md#doordash), [incident.io](reading-notes.md#incidentio), [Meta](reading-notes.md#meta), [OpenAI](reading-notes.md#openai), [Qonto](reading-notes.md#qonto).
 - **Testing answers and model changes:** [Gorgias](reading-notes.md#gorgias), [Anthropic](reading-notes.md#anthropic), [ClickHouse](reading-notes.md#clickhouse), [DoorDash](reading-notes.md#doordash), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin), [Meta](reading-notes.md#meta), [Uber](reading-notes.md#uber).
 - **Fixing mistakes and keeping context current:** [Bitrise](reading-notes.md#bitrise), [DoorDash](reading-notes.md#doordash), [GitHub](reading-notes.md#github), [Gorgias](reading-notes.md#gorgias), [incident.io](reading-notes.md#incidentio), [Meta](reading-notes.md#meta), [Replit](reading-notes.md#replit), [Astronomer](reading-notes.md#astronomer).
 - **Reducing cost and latency:** [Cloudflare](reading-notes.md#cloudflare), [DoorDash](reading-notes.md#doordash), [Gorgias](reading-notes.md#gorgias), [Vercel](reading-notes.md#vercel).
-- **Getting people to use it:** [Alan](reading-notes.md#alan), [Astronomer](reading-notes.md#astronomer), [Bitrise](reading-notes.md#bitrise), [Faire](reading-notes.md#faire), [incident.io](reading-notes.md#incidentio), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin), [Meta](reading-notes.md#meta).
+- **Getting people to use it:** [Alan](reading-notes.md#alan), [Astronomer](reading-notes.md#astronomer), [Bitrise](reading-notes.md#bitrise), [Faire](reading-notes.md#faire), [incident.io](reading-notes.md#incidentio), [Ramp](reading-notes.md#ramp), [LinkedIn](reading-notes.md#linkedin), [Meta](reading-notes.md#meta), [Qonto](reading-notes.md#qonto).
 
 ## Related reading
 

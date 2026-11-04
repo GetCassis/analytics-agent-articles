@@ -397,3 +397,51 @@ Published by Benchouse.
 A leaderboard comparing analytics agents on accuracy, completeness, restraint, and cost per question, with filters for descriptive, diagnostic, and prescriptive questions. Each entry identifies the model, where disclosed, and its context setup. Useful for comparing the configurations tested in a given season; follow the live page for current results.
 
 [Back to the directory](README.md)
+
+## Checkr
+
+**[How Checkr cut an hours-long metrics investigation to minutes by engineering AI context on dbt and Omni](https://www.getdbt.com/blog/checkr-ai-context-metrics-investigation)** · dbt Labs · October 2026 · `Talk write-up`
+
+By Daniel Poppy (dbt Labs), from a dbt Summit 2026 talk by Sarah Fischbach, staff analytics engineer at Checkr, with Chris Merrick, co-founder and CTO of Omni.
+
+`dbt` · `Snowflake` · `Omni` · `Claude` · `MCP`
+
+Connected directly to Checkr’s Snowflake and dbt project of more than 6,000 models over MCP, an agent returned a different wrong answer each time the same question was asked; it could not tell what First Reply Time, a queue, or a 90% threshold meant from field names alone. The talk splits AI readiness into the warehouse, the semantic layer, and AI context (synonyms, sample values, field descriptions, behavioral guidance, and sample queries in Omni), and fills that context from existing Confluence pages, meeting transcripts, PRDs, and Slack threads rather than new documentation. Especially useful for the maintenance loop: golden evals run against Omni, a Claude agent clusters the failures, a second skill drafts a fix from a vector store of company knowledge, and a third re-runs the evals before a merge request goes to a subject-matter expert. An audience caution is worth keeping: adding context broadly without a failure to fix made answers slower and roughly doubled token costs.
+
+[Back to the directory](README.md)
+
+## KOHO
+
+**[How KOHO built a Claude-powered self-serve analytics tool on years of dbt governance](https://www.getdbt.com/blog/claude-self-serve-analytics-dbt-governance)** · dbt Labs · October 2026 · `Talk write-up`
+
+By Daniel Poppy (dbt Labs), from a dbt Summit 2026 talk by Célia Bru, senior director of data at KOHO, and Gabriel Gambacorta, technical product manager at KOHO.
+
+`dbt` · `Redshift` · `Claude Code` · `Bedrock` · `MCP`
+
+KoDa is a Claude skill (Markdown files plus pre- and post-hook MCP calls) used through Claude Code and connected to certified dbt marts on Redshift through a Redshift MCP server, with Bedrock providing the model. It is limited to analytics questions, reads only certified marts with no raw data or PII, and cannot write back. The talk credits a 2022 rebuild into roughly 1,400 tested and documented dbt models; teams without a governed mart cannot use the tool. Especially useful for evaluation: an “eval council” of about 375 real analyst questions is used offline to test changes and online, where every question is logged and an analyst on a weekly rotation reviews new or high-priority ones.
+
+[Back to the directory](README.md)
+
+## LangChain
+
+**[How LangChain grew self-serve analytics questions 40x by giving its AI agent layered context](https://www.getdbt.com/blog/langchain-self-serve-analytics-ai-agent-context)** · dbt Labs · October 2026 · `Talk write-up`
+
+By Daniel Poppy (dbt Labs), from a dbt Summit 2026 talk by Emily Hawkins, head of analytics engineering at LangChain, and Logan Cochran, analytics engineer at LangChain.
+
+`dbt` · `BigQuery` · `Hex`
+
+LangChain syncs dbt table and column descriptions into BigQuery and rewrote them for an agent reader, gives its Hex agent access to the dbt repository and DAG, and layers Markdown workspace guides (written in the dbt repository and imported through a GitHub Action), a semantic layer for its most important metrics, and selective endorsements of trusted models and dashboards. The team reports a 40x increase in questions asked through self-serve analytics. Especially useful on keeping context current while the business changes: the team documents context continuously rather than as a project with an end date, and argues a domain does not need airtight metric definitions before an agent is useful. Evaluations are next on their list.
+
+[Back to the directory](README.md)
+
+## Okta
+
+**[What Okta learned governing context for AI agents at scale](https://www.getdbt.com/blog/okta-ai-agent-context-governance)** · dbt Labs · October 2026 · `Talk write-up`
+
+By Daniel Poppy (dbt Labs), from a dbt Summit 2026 talk by Pooja Crahen, senior manager of analytics engineering at Okta.
+
+`dbt` · `Snowflake Cortex` · `Claude` · `MCP`
+
+Okta’s first Cortex agents read semantic views built in Snowflake’s interface, separate from the governed dbt models that held the business logic. The talk names what broke: context split across two tools, no audit trail, and every instruction in one block, which led to problems with discovery, trust, and duplicated definitions. The team moved all agent context into dbt behind pull requests in three layers: an agent block in model and column YAML with safe uses, uses to avoid, and automatic filters; Markdown documents for company facts and domain routing; and semantic views migrated to the dbt semantic layer spec. Both Claude, over MCP, and Cortex read the same synced context. Next on their list are regression tests on verified queries whenever context changes.
+
+[Back to the directory](README.md)

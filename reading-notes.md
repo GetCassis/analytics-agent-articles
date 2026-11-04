@@ -40,6 +40,14 @@ By Josh Cherry, Clement Peng, Johanne Jiao, Justin Leder, and Chen Chang.
 
 Anthropic uses Claude skills to guide analysis through agreed metric definitions, documentation, and raw data. When a data model changes, the team reviews the relevant skills and docs and reruns the affected tests. Includes templates you can adapt for your own skills.
 
+**[Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions](https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions)** · Anthropic · August 2026 · `Internal deployment`
+
+By Clement Peng and Lily Zhao, with contributions from Josh Cherry and Michael Segner.
+
+`Claude Tag` · `Slack`
+
+The follow-up on taking the same semantic layer, skills, and evaluations to everyone in Slack. Especially useful on keeping context current: skill files are treated as served content that the agent re-reads on every conversation, because data models change several times a day, and every answer logs which skill versions it loaded. The share of questions answered through the governed layer, tracked by domain, turned out to be the most actionable number: when it dips, a skill has drifted or a new class of questions has appeared. Also covers analyst runbook skills (forecasting, cohorts, funnels), a service account scoped to governed data with PII columns hidden, and labels on every query for audit and cost.
+
 [Back to the directory](README.md)
 
 ## Astronomer
@@ -204,6 +212,14 @@ Published by Analytics at Meta.
 
 Meta’s Analytics Agent starts from each person’s recent query history, then retrieves table descriptions, example queries, column documentation, code, semantic models, and other business context as it works. The article explains its iterative query loop and the Cookbooks, Recipes, and Ingredients system teams use to package domain instructions, reference experts, validation rules, semantic models, documentation, and learned corrections. It also covers rollout from a weekend prototype to company-wide use, with the SQL behind every answer visible for review.
 
+**[Scaling AI-Native Analytics Patterns at Meta](https://medium.com/@AnalyticsAtMeta/scaling-ai-native-analytics-patterns-at-meta-b29162cb46bf)** · Meta · October 2026 · `Internal deployment`
+
+By Benjamin Wan Rothschild.
+
+`Python` · `YAML` · `SQL`
+
+Meta found that seven measurement patterns, such as metrics, retention, funnels, and growth accounting, covered most product analytics, so it turned them into parameterized libraries that generate the SQL and pipelines from typed declarations; more than 9,000 production pipelines run on them. Every output ships with a YAML data model, and agents query it through a deterministic query generator called as a command-line tool, which also picks the best source table, rather than writing SQL themselves. Analysis recipes encode how a senior analyst investigates a metric movement. Candid that standardizing pays off only when reuse outweighs the maintenance, and that exploratory work should stay unconstrained.
+
 [Back to the directory](README.md)
 
 ## OpenAI
@@ -215,6 +231,14 @@ By Bonnie Xu ([@xubonnie](https://github.com/xubonnie)), Aravind Suresh, and Emm
 `GPT-5.2` · `Codex` · `MCP` · `OpenAI Evals API`
 
 OpenAI explains how its agent learns about the data before anyone asks a question, then looks up more context as it works. The team uses Codex to extract context from code, carries the user’s permissions through to data access, and tests answers against query results.
+
+**[Inside OpenAI: How our data team uses AI to move faster](https://www.linkedin.com/pulse/inside-openai-how-our-data-team-uses-ai-move-faster-vijaye-raji-a0vcc/)** · OpenAI · September 2026 · `Internal deployment`
+
+By Vijaye Raji, on LinkedIn.
+
+`ChatGPT Work` · `Codex` · `Slack`
+
+An adoption account published alongside OpenAI's Data agent launch, written by its CTO of Applications. It describes how a lean data team supports the company: corrections to a definition or filter are saved for future questions, Slack agents take the first pass on questions with a data scientist stepping in, an onboarding skill sets up new hires with the team's plugin and skills, and dashboards are now HTML web apps built in the same conversation as the analysis. Lighter on architecture than the January post, and it closes on the public Data plugin.
 
 [Back to the directory](README.md)
 

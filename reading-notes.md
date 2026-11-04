@@ -258,6 +258,18 @@ Ian Macomber describes how Ramp builds dashboards for people and agents to read,
 
 [Back to the directory](README.md)
 
+## Red Hat
+
+**[We built an enterprise data agent—and you can too](https://www.redhat.com/en/blog/we-built-enterprise-data-agent-and-you-can-too)** · Red Hat · August 2026 · `Internal deployment`
+
+By Reid Bryant, William Henry ([@ipbabble](https://github.com/ipbabble)), and Nathan Chandirasegarane.
+
+`OpenShift` · `MCP`
+
+Dataverse Agent answers questions over Red Hat's data products using guidance written by each product's owner: routing guidance maps a term like ACV to a data product, then product documentation drives a logged pipeline that identifies data products, shortlists tables, generates SQL, and runs it. The agent signs in through existing SSO and inherits the user's data permissions. Especially useful on maintenance: owner-written guidance did not scale to hundreds of data products, so the team now drafts it from analysts' past SQL (filters, joins, aggregations) for owners to review. Reports 40 data products, about 1,000 users, and about 70 daily active users. The agent, MCP server, and UI templates are open source: [template-agent](https://github.com/redhat-data-and-ai/template-agent), [template-mcp-server](https://github.com/redhat-data-and-ai/template-mcp-server), [template-ui](https://github.com/redhat-data-and-ai/template-ui).
+
+[Back to the directory](README.md)
+
 ## Replit
 
 **[AI adoption starts with truth](https://replit.com/blog/ai-adoption)** · Replit · August 2026 · `Internal deployment`
@@ -303,6 +315,18 @@ By Andrew Qu ([@quuu](https://github.com/quuu)).
 `Claude Opus 4.5` · `AI SDK` · `Vercel Sandbox` · `Cube`
 
 Vercel replaced most of its SQL agent’s specialized tools with bash access to Cube files, keeping a tool for running SQL. The files already documented measures and joins, which made the simpler setup work. Includes code and a before/after comparison on five queries.
+
+[Back to the directory](README.md)
+
+## Webflow
+
+**[Building an AI-native data & insights operating system at Webflow](https://webflow.com/blog/building-an-ai-native-data-and-insights-operating-system)** · Webflow · September 2026 · `Internal deployment`
+
+By Ashwini Chaube.
+
+`Snowflake` · `dbt` · `Cursor` · `Slack`
+
+Webflow's data team rebuilt its warehouse on dimensional models with seven standardized entities, then layered Snowflake semantic views, recurring query patterns, and skills on top so agents answer from approved definitions. Especially useful on governance that does not rely on the prompt: a control plane routes each question to certified semantic views and applies access controls, an evaluation framework gates which agent and skill versions ship, and a "Governor" reviews every production run and returns certify or warn, with answers labeled CONFIRMED or INFERRED. On the team's internal evaluation set, governed context and these controls raised accuracy from 46.2% to 96.2% and cut tool calls 3.7x. Also covers the team's own agents for dbt authoring and pull request review.
 
 [Back to the directory](README.md)
 

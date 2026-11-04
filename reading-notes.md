@@ -234,7 +234,7 @@ OpenAI explains how its agent learns about the data before anyone asks a questio
 
 **[Inside OpenAI: How our data team uses AI to move faster](https://www.linkedin.com/pulse/inside-openai-how-our-data-team-uses-ai-move-faster-vijaye-raji-a0vcc/)** · OpenAI · September 2026 · `Internal deployment`
 
-By Vijaye Raji, on LinkedIn.
+By Vijaye Raji ([@vijaye-statsig](https://github.com/vijaye-statsig)), on LinkedIn.
 
 `ChatGPT Work` · `Codex` · `Slack`
 
@@ -486,7 +486,7 @@ LangChain syncs dbt table and column descriptions into BigQuery and rewrote them
 
 **[What Okta learned governing context for AI agents at scale](https://www.getdbt.com/blog/okta-ai-agent-context-governance)** · dbt Labs · October 2026 · `Talk write-up`
 
-By Daniel Poppy (dbt Labs), from a dbt Summit 2026 talk by Pooja Crahen, senior manager of analytics engineering at Okta.
+By Daniel Poppy (dbt Labs), from a dbt Summit 2026 talk by Pooja Crahen ([@poojacrahen](https://github.com/poojacrahen)), senior manager of analytics engineering at Okta.
 
 `dbt` · `Snowflake Cortex` · `Claude` · `MCP`
 

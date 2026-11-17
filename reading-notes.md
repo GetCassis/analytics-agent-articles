@@ -62,6 +62,18 @@ Astronomer built Kepler as a Slackbot and CLI for ad hoc warehouse questions. In
 
 [Back to the directory](README.md)
 
+## Babylist
+
+**[What we learned building Data Doula, our analytics agent](https://www.babylist.com/engineering/blog/data-doula)** · Babylist · September 2026 · `Internal deployment`
+
+By Arthur Wang.
+
+`dbt` · `Slack` · `MCP`
+
+Babylist’s Data Doula answers questions in Slack and over MCP. After two test sessions produced different, plausible but wrong definitions of “active user,” the team replaced one warehouse-wide query tool with one tool per semantic model, each limited to the tables, metrics, filters, and joins of a business domain; the agent says it doesn’t know rather than leave them. A small generator builds those semantic models from existing dbt metadata, so definitions change through dbt code review and shared concepts are defined once. Useful for the trade-offs of that bounded design, for telemetry such as negative feedback per semantic model, and for rollout: one deep domain first, and the data team tagging the agent in public channels.
+
+[Back to the directory](README.md)
+
 ## Bitrise
 
 **[Data Mage: meet our AI data analyst that lives in Slack](https://bitrise.io/blog/post/data-mage-meet-our-ai-data-analyst-that-lives-in-slack)** · Bitrise · July 2026 · `Internal deployment`
@@ -175,6 +187,26 @@ By Arthur Edmond ([@Shumatsurontek](https://github.com/Shumatsurontek)).
 `BM25` · `Markdown`
 
 Gorgias compared an LLM ranker, fine-tuned ColBERT, and BM25 for finding the right skill. BM25 was close enough on their tests to win on maintenance cost. Each skill now has three example requests that test whether its description makes it findable before it ships.
+
+**[Créer la couche de contexte pour l'agent AI Analytics de Gorgias](https://www.youtube.com/watch?v=n61cDUuWDrQ)** · DataGen · July 2026 · `Internal deployment` · Video, in French
+
+Robin Conquet (DataGen) interviews Yochan Khoi, context engineer at Gorgias.
+
+`LangChain` · `BigQuery` · `Markdown` · `MCP`
+
+A 22-minute interview on the context layer behind the agent, which the team rebuilt as a custom LangChain harness in January 2026 and which answers about 1,000 questions a day. It covers three decisions the written posts don’t: no offline evaluation gate, because 200 to 300 questions cannot represent an agent that spans finance, marketing, and product, so the team relies on a daily agent that turns frustrated conversations into context pull requests, a dev environment for context edits, and fixes within 20 minutes of a Slack report; example SQL queries instead of a semantic layer, after MetricFlow and Cube hid how metrics were computed behind a CLI; and a custom build after testing Omni’s and Hex’s agents, to control how context is structured and retrieved. Also covers opening edits to the whole company through an MCP that drafts pull requests and a UI backed by CI checks for format and overlap, and the unsolved problem of one shared permission set for all users.
+
+[Back to the directory](README.md)
+
+## Grab
+
+**[How AI is transforming analytics at Grab](https://engineering.grab.com/how-ai-is-transforming-analytics)** · Grab · August 2026 · `Internal deployment`
+
+By Maanas Prabhakar, with the Spartan, BriX, ContextIQ, Funnelytics, and Monte teams credited as contributors.
+
+`Slack` · `MCP`
+
+Grab frames its analytics work as a ladder of autonomy, from AI-assisted to end-to-end, and describes what runs at each level. Spartan routes Slack questions either to a diagnostic path over certified metrics or to an experiment skill that summarizes a precomputed scorecard, drawing on 50+ skills and 120+ analysis frameworks. Especially useful on keeping context current: ContextIQ treats context as having a lifecycle, a skill updates context documents from instrumentation specs, and one analyst session ended with the agent opening a merge request that added a certified-context reference and a golden-dataset test. Also covers scheduled root-cause commentaries whose edits sync back, and BriX, a portal where data engineers configure team-specific agents once. Reports measured shifts: mechanical tickets fell from 44% to 30% of those closed, and the share of channel requests answered with no analyst rose to 67% for metric questions and 81% for SQL requests.
 
 [Back to the directory](README.md)
 
@@ -315,6 +347,18 @@ By Aditya Kalia.
 `Gemini 2.5 Flash` · `BigQuery` · `Google Cloud Functions` · `Slack` · `Sourcegraph Deep Search`
 
 DataBot answers questions in Slack using a few tools to look up schemas, run SQL, and search the code that produces the data. Sourcegraph shows how the team checks the SQL behind answers and updates the instructions when something goes wrong.
+
+[Back to the directory](README.md)
+
+## Spotify
+
+**[Encoding Your Domain Expert: The Context Layer Behind Spotify's Data Assistant](https://engineering.atspotify.com/2026/6/encoding-your-domain-expert-the-context-layer-behind-spotifys-data-assistant)** · Spotify · June 2026 · `Internal deployment`
+
+By Pavlina Mitsou ([@Pavlmits](https://github.com/Pavlmits)) and Jonathan Warburton.
+
+`Slack` · `MCP` · `SQL`
+
+Spotify’s data assistant, Vedder, answers questions in Slack, over MCP, and in a web UI from domain “clusters,” each owned by a named team of data scientists and analytics engineers. A cluster combines profiled datasets (cardinality, common values, partitions), vetted question-and-SQL pairs used as few-shot examples, and docs on terminology and columns to avoid. Especially useful on curation: when the team generated pairs from warehouse query history, curators accepted only 12.5% of them, which is why every example goes through an expert. Each cluster carries a health score built from signals such as pairs broken by schema changes, coverage of real questions, and SQL reproducibility, and owners see every conversation, query, and piece of feedback. Reports more than 2,100 users, 13,000 conversations, and 177 clusters since August 2025.
 
 [Back to the directory](README.md)
 
@@ -491,5 +535,17 @@ By Daniel Poppy (dbt Labs), from a dbt Summit 2026 talk by Pooja Crahen ([@pooja
 `dbt` · `Snowflake Cortex` · `Claude` · `MCP`
 
 Okta’s first Cortex agents read semantic views built in Snowflake’s interface, separate from the governed dbt models that held the business logic. The talk names what broke: context split across two tools, no audit trail, and every instruction in one block, which led to problems with discovery, trust, and duplicated definitions. The team moved all agent context into dbt behind pull requests in three layers: an agent block in model and column YAML with safe uses, uses to avoid, and automatic filters; Markdown documents for company facts and domain routing; and semantic views migrated to the dbt semantic layer spec. Both Claude, over MCP, and Cortex read the same synced context. Next on their list are regression tests on verified queries whenever context changes.
+
+[Back to the directory](README.md)
+
+## Recruit Holdings
+
+**[How Recruit Holdings, the company behind Indeed, taught its text-to-SQL agent to read a website's hidden context](https://www.getdbt.com/blog/recruit-holdings-text-to-sql-agent-website-context)** · dbt Labs · October 2026 · `Talk write-up`
+
+By Daniel Poppy (dbt Labs), from a dbt Summit 2026 talk by Junya Morita, manager on the data management group at Recruit Holdings.
+
+`dbt` · `YAML` · `Slack`
+
+The Car Sensor team’s Slack agent, Goro, had dbt table definitions, golden queries, and a semantic layer, but misread near-identical event names such as tap reserve and tap reserve icon. Rather than build a general ontology, the team fixed specific failures by writing a “web domain context” YAML file that maps user actions to UI elements and log events. Especially useful on keeping it current under dozens of A/B tests a month: the file must be written and reviewed before a feature ships, front-end logging code is generated from it, and QA tests run against it.
 
 [Back to the directory](README.md)
